@@ -1,8 +1,5 @@
 package thread.control.interrupt;
 
-import util.MyLogger;
-import util.ThreadUtils;
-
 import static util.MyLogger.*;
 import static util.ThreadUtils.sleep;
 
