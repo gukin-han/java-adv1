@@ -4,8 +4,8 @@ import static util.MyLogger.log;
 
 public class SpinLockMain {
     public static void main(String[] args) {
-        final SpinLockBad spinLock = new SpinLockBad();
-//        final SpinLock spinLock = new SpinLock();
+//        final SpinLockBad spinLock = new SpinLockBad();
+        final SpinLock spinLock = new SpinLock();
 
         final Runnable task = new Runnable() {
             @Override
